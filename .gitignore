@@ -104,3 +104,24 @@ vendor/bundle/
 .env
 .env.local
 .env.production
+
+
+# Expo
+.expo/
+.expo-shared/
+
+# Caches (common)
+cache/
+.prebuild/
+
+
+# Watchman
+.watchmanconfig
+
+# TS build output (if you ever emit)
+dist/
+build/
+
+# React Native
+*.orig
+
