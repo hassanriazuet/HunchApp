@@ -1,9 +1,66 @@
-# OSX
-#
+# =============================
+# macOS
+# =============================
 .DS_Store
 
+# =============================
+# Node
+# =============================
+node_modules/
+npm-debug.log
+yarn-error.log
+*.log
+
+# Yarn (if using modern yarn)
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# =============================
+# Metro
+# =============================
+.metro-health-check*
+
+# =============================
+# Testing
+# =============================
+coverage/
+__tests__/results/
+
+# =============================
+# Android
+# =============================
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+.cxx/
+.gradle
+*.iml
+*.hprof
+.kotlin/
+*.keystore
+*.jks
+!debug.keystore
+
+# =============================
+# iOS
+# =============================
+ios/Pods/
+ios/build/
+DerivedData
+xcuserdata
+*.xcuserstate
+*.hmap
+*.ipa
+**/.xcode.env.local
+
+# =============================
 # Xcode
-#
+# =============================
 build/
 *.pbxuser
 !default.pbxuser
@@ -13,18 +70,37 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-xcuserdata
 *.xccheckout
 *.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
-project.xcworkspace
-.xcode.env.local
 
+# =============================
+# Fastlane
+# =============================
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# =============================
+# Ruby / CocoaPods
+# =============================
+**/Pods/
+vendor/bundle/
+
+# =============================
 # Bundle artifacts
+# =============================
 *.jsbundle
 
-# CocoaPods
-/Pods/
+# =============================
+# IDE
+# =============================
+.vscode/
+.idea/
+
+# =============================
+# Environment files
+# =============================
+.env
+.env.local
+.env.production
