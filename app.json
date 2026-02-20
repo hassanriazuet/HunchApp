@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "Hunch",
+    "slug": "Hunch",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "hunch",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.crypto.Hunch",
+      "appleTeamId": "J8C4HC627Q"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/splashAppIcon.png",
+        "backgroundImage": "./assets/images/appLogo.png",
+        "monochromeImage": "./assets/images/User_Profile.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.crypto.Hunch"
+    },
+    "extra": {
+      "privyAppId": "cmk8ojt8n013bjy0d9pgu5dsh",
+      "privyClientId": "client-WY6UxXnRgmr2gXmnvvtraWwTphUETuQTgb8Waz2NtLMBR",
+      "router": {},
+      "eas": {
+        "projectId": "0d304384-bbd7-4ef7-8988-df594248123d"
+      }
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/splashAppIcon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splashAppIcon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ],
+      "expo-secure-store",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
